@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lovejeet Singh – Résumé</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root{
+      --primary:#00796b;
+      --primary-light:#4db6ac;
+      --dark:#222;
+      --light:#f7f9f9;
+      --radius:10px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Poppins',sans-serif;
+      background:var(--light);
+      color:var(--dark);
+      line-height:1.6;
+    }
+    a{color:var(--primary);text-decoration:none}
+    .container{
+      max-width:900px;
+      margin:auto;
+      padding:2rem 1.5rem;
+    }
+    header{
+      background:var(--primary);
+      color:#fff;
+      padding:3rem 1.5rem 2.5rem;
+      text-align:center;
+      clip-path:polygon(0 0,100% 0,100% 90%,0 100%);
+    }
+    header h1{font-size:2.2rem;font-weight:700;letter-spacing:1px}
+    header p{margin-top:.5rem;font-size:1rem;opacity:.9}
+    .contact{
+      margin-top:1.2rem;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:1.2rem;
+      font-size:.95rem;
+    }
+    .contact span{display:flex;align-items:center;gap:.4rem}
+    .contact i{color:var(--primary-light)}
+    section{
+      background:#fff;
+      margin:2rem 0;
+      padding:2rem;
+      border-radius:var(--radius);
+      box-shadow:0 5px 15px rgba(0,0,0,.05);
+    }
+    h2{
+      font-size:1.4rem;
+      margin-bottom:1rem;
+      color:var(--primary);
+      border-bottom:2px solid var(--primary-light);
+      padding-bottom:.4rem;
+    }
+    .cert-badge{
+      display:inline-block;
+      background:var(--primary-light);
+      color:#fff;
+      padding:.3rem .8rem;
+      border-radius:20px;
+      font-size:.8rem;
+      margin:.2rem .2rem .2rem 0;
+    }
+    ul{margin-left:1.2rem}
+    li{margin-bottom:.5rem}
+    .skills{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.8rem}
+    .skills span{
+      background:var(--light);
+      border:1px solid var(--primary-light);
+      padding:.4rem .8rem;
+      border-radius:20px;
+      font-size:.85rem;
+    }
+    footer{
+      text-align:center;
+      padding:2rem 1rem 3rem;
+      font-size:.85rem;
+      opacity:.7;
+    }
+    /* Print styles */
+    @media print{
+      body{background:#fff}
+      header{clip-path:none;background:var(--primary)!important;color:#fff!important;-webkit-print-color-adjust:exact}
+      section{box-shadow:none;border:1px solid #ddd}
+      .contact{justify-content:flex-start;gap:1.5rem}
+    }
+    @media(max-width:600px){
+      header h1{font-size:1.8rem}
+      .contact{flex-direction:column;align-items:center}
+    }
+  </style>
+<base target="_blank">
+</head>
+<body>
+
+  <!-- HERO / HEADER -->
+  <header>
+    <h1>Lovejeet Singh</h1>
+    <p>Business Administration (Finance) • Food-Safety & Smart-Serve Certified</p>
+    <div class="contact">
+      <span><i class="fa-solid fa-location-dot"></i> Peterborough, ON</span>
+      <span><i class="fa-solid fa-phone"></i> +1 (742) 247-0123</span>
+      <span><i class="fa-solid fa-envelope"></i> say.hi.to.lovejeet@gmail.com</span>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- SUMMARY -->
+    <section>
+      <h2><i class="fa-solid fa-user-astronaut"></i> Professional Snapshot</h2>
+      <p>Third-year Trent University BBA (Finance) student with an international business perspective and hands-on digital-marketing experience.  Certified in Advanced Food Safety and Smart Serve, ready to contribute to food-service or hospitality teams through strong customer-service skills, tech-savvy problem solving, and a quick-learning attitude.</p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+      <h2><i class="fa-solid fa-graduation-cap"></i> Education & Upskilling</h2>
+      <ul>
+        <li><strong>Trent University</strong> — BBA, Finance Specialization (2023-2027)</li>
+        <li><strong>Coursera (Microsoft) & Udemy</strong> — Python for Data Analysis & Automation (Expected 2026)</li>
+      </ul>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section>
+      <h2><i class="fa-solid fa-certificate"></i> Certifications</h2>
+      <span class="cert-badge">Advanced Food Safety — Ontario (2025)</span>
+      <span class="cert-badge">Smart Serve Certified (2025)</span>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section>
+      <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+      <p><strong>SEO & Digital Marketing Intern</strong> | Accosoft India (Remote) | May 2023 – Aug 2023</p>
+      <ul>
+        <li>Optimized on-page content for 25+ client sites, lifting average organic traffic 18%.</li>
+        <li>Built keyword-rich blog outlines & meta tags that improved CTR 12%.</li>
+        <li>Used Google Analytics & Search Console to track KPIs and present weekly reports to management.</li>
+      </ul>
+    </section>
+
+    <!-- VOLUNTEER -->
+    <section>
+      <h2><i class="fa-solid fa-hand-holding-heart"></i> Volunteer Experience</h2>
+      <p><strong>Community Hygiene Educator</strong> | CSR Outreach, Rural Punjab | Mar 2022</p>
+      <ul>
+        <li>Designed interactive workshops on hand-washing and food hygiene for 120 village students.</li>
+        <li>Created bilingual posters (Hindi / Punjabi) that doubled daily attendance at sessions.</li>
+      </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+      <h2><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h2>
+      <div class="skills">
+        <span>Excel</span><span>PowerPoint</span><span>Photoshop</span><span>Comet</span><span>n8n</span>
+        <span>Python (intermediate)</span><span>English</span><span>Hindi</span><span>Punjabi</span>
+        <span>Communication</span><span>Time Management</span><span>Problem Solving</span><span>Quick Decision-Making</span>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    Built with ❤️ by Lovejeet Singh • <a href="mailto:say.hi.to.lovejeet@gmail.com">Get in touch</a>
+  </footer>
+
+  <!-- Optional: smooth scroll & print button -->
+  <script>
+    // Print button (appears bottom-right on hover)
+    const btn=document.createElement('button');
+    btn.innerHTML='<i class="fa-solid fa-print"></i>';
+    btn.style.cssText='position:fixed;bottom:20px;right:20px;background:var(--primary);color:#fff;border:none;border-radius:50%;width:50px;height:50px;font-size:1.2rem;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);z-index:999';
+    btn.onclick=()=>window.print();
+    document.body.appendChild(btn);
+  </script>
+</body>
+</html>
